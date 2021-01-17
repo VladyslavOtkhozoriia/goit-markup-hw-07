@@ -1,0 +1,96 @@
+
+.our_team {
+    min-height: 648px;
+    background-color:$another-fon-color;
+    padding-bottom: 94px;
+    padding-top: 94px;
+
+    &_list{
+        display: flex;
+        }
+        
+    &_list_item {
+        margin-right: 30px;
+        max-width: 270px;
+        background: $white-color;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px; 
+        }
+
+    &_list_img{
+        margin-bottom: 30px;
+        }
+
+    &_list_name{
+        font-family:$roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.188;
+        margin-bottom: 10px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $black-color;
+        }
+          
+    &_list_name_specialty{
+        font-family:$roboto;
+        font-style: normal;
+        font-weight:  400;
+        font-size: 16px;
+        line-height: 1.188;
+        margin-bottom: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: $gray-color;
+        }
+
+    }
+    
+ 
+.social_links{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition:$animation-background;
+
+    &:hover ,
+    &:focus {
+        background-color: $accent-color;
+        }
+        
+    &:hover .svg_links,
+    &:focus .svg_links{
+        fill:$white-color;
+        }
+
+    }
+    
+.social_links_list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 32px;
+    margin-left: 32px;
+    padding-bottom: 30px;
+
+    &:first-child{
+    margin-left: 32px;
+    }
+
+    }
+    
+    
+    .svg_links{
+        justify-content: center;
+        width: 20px; 
+        height: 20px; 
+        transition:$animation-fill;
+        fill:$svg-state-color;
+        }
+        
+    

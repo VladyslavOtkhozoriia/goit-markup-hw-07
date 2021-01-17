@@ -1,0 +1,48 @@
+.navigation{
+    display: flex;
+    align-items: center;
+
+    &_menu{
+        display: flex;
+        }
+}
+    
+      
+.navigation_menu_item_link {
+    font-family: $roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+
+    color: $black-color;
+    transition:$animation-color;
+
+      &:hover,
+      &:focus{
+        color: $accent-color;
+        }
+    }
+      
+.navigation_menu_item:not(:last-child){
+    margin-right: 50px;
+    }
+       
+.position{
+    position: relative;
+    padding-bottom: 32px;
+
+    &::after{
+        position: absolute;
+        display: inline-block;
+        content: '';
+        bottom: 0px;
+        right: 0px;
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background: $accent-color;
+        }
+    }
+    

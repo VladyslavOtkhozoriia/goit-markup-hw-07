@@ -1,0 +1,33 @@
+.header_logo{
+    display: inline-block;
+    width: 145px;
+    height: 31px;
+
+    font-family:$raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: $black-color;
+    
+    margin-right: 93px;
+    }
+    
+.footer_logo{
+    
+    font-family:$raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color:$white-color;
+    
+    display: inline-block;
+    margin-bottom: 20px;
+    } 
+    
+.logo_part_color {
+    color: $accent-color;
+    }

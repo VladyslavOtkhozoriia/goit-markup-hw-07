@@ -1,0 +1,51 @@
+.address_menu_item_link{
+    font-family:$roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em;
+    color:$gray-color;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    fill: $svg-state-color;
+
+    transition: $animation-color;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    &:hover,
+    &:focus{
+    color:$accent-color;
+    }
+    
+    &:hover .address-svg, 
+    &:focus .address-svg{
+    fill: $accent-color;
+    }
+    
+}
+    
+
+.address {
+    margin-left: auto;
+
+    &-svg{
+        margin-right: 10px;
+        transition:$animation-fill;
+        }
+    }
+
+    
+.address_menu{
+        display: flex;
+        align-items: center;
+
+    &_item:not(:last-child){
+    margin-right: 50px;
+    }
+            
+    }
+
+    
