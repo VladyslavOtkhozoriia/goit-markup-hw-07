@@ -147,7 +147,7 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 
 &:checked + .icon{
-    background-image: url(../../icon-check.svg);
+    background-image: url(../fon-img/icon-check.svg);
     background-size: contain;
     background-origin: border-box;
     border-color: $accent-color;
